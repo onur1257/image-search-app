@@ -1,0 +1,36 @@
+.App{
+  margin: 10px;
+  background-color: #2d3748;
+}
+body{
+  background-color: #4a5568;
+}
+
+.searchDiv{
+  border: 1px ;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+.label{
+  color: white;
+}
+
+.searchDiv form {
+  display: flex;
+  flex-direction: column;
+}
+.imageList {
+  display: flex;
+  flex-wrap: wrap; /* Eğer sıralı bir sıra ile düzenlenmesi gerekiyorsa, flex-wrap özelliğini kullanabilirsiniz. */
+  gap: 10px; /* Resimler arasındaki boşluğu ayarlar. */
+  columns:250px  5;
+  background-color: #2d3748;
+}
+
+
+.imageListing {
+  width: 100%;
+  margin-bottom: 15px;
+  ;
+}
